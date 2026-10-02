@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>YAN Fragance | Catálogo de perfumes</title>
+<meta name="description" content="Catálogo de perfumes inspirados YAN Fragance, 60 ml. 1 por $200, 2 por $350, 3 por $500. Pide por WhatsApp.">
+<meta name="theme-color" content="#0a0806"><meta property="og:title" content="YAN Fragance | Perfumes inspirados"><meta property="og:description" content="Elige tus perfumes y pide por WhatsApp. 1 por $200, 2 por $350, 3 por $500."><meta property="og:type" content="website"><link rel="icon" href="./assets/logo.webp">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./css/styles.css"></head><body>
+<header class="hero"><div class="ring"></div>
+<img class="logo" src="./assets/logo.webp" alt="YAN Fragance">
+<h1>Tu aroma, tu firma</h1>
+<p class="sub">Perfumes inspirados en las fragancias más deseadas. Eau de parfum, 60 ml. Elige y pide por WhatsApp.</p>
+<div class="tiers"><div class="tier"><b>$200</b><span>1 perfume</span></div><div class="tier"><b>$350</b><span>2 perfumes</span></div><div class="tier"><b>$500</b><span>3 perfumes</span></div></div>
+</header>
+<section class="steps" aria-label="Cómo pedir"><div><i>1</i><b>Elige</b>tus perfumes</div><div><i>2</i><b>Envía</b>el pedido por WhatsApp</div><div><i>3</i><b>Confirmamos</b>entrega y pago contigo</div></section>
+<nav class="bar"><div><div class="tabs" role="tablist" id="tabs"></div><input id="q" type="search" placeholder="Buscar perfume o marca inspiradora" aria-label="Buscar"></div></nav>
+<main><aside class="ph"><img id="img" alt=""><p id="cap"></p></aside>
+<section><h2 id="ttl"></h2><p class="cnt" id="cnt"></p><div class="grid" id="grid"></div></section></main>
+<footer><p><a class="lk" href="https://wa.me/525635123355?text=Hola%20YAN%20Fragance%2C%20tengo%20una%20duda" target="_blank" rel="noopener">¿Dudas? Escríbenos por WhatsApp</a></p>YAN Fragance · Perfumes inspirados, no son los originales ni están afiliados a las marcas mencionadas.</footer>
+<div class="cta"><div class="hint" id="hint"></div><button id="open" disabled><span id="n">Elige tus perfumes</span><span id="p"></span></button></div>
+<div class="toast" id="toast" role="status"></div>
+<dialog id="dlg"><h3>Tu pedido</h3><div id="lines"></div><div class="tot"><span>Total</span><span id="tot"></span></div><div class="save" id="save"></div>
+<label>Tu nombre<input id="nm" autocomplete="name"></label>
+<label>Zona o dirección de entrega<textarea id="ad" rows="2" autocomplete="street-address"></textarea></label>
+<div class="err" id="err" role="alert"></div>
+<div class="row"><button class="sec" id="x">Seguir viendo</button><button class="sec" id="clr">Vaciar</button><button class="wa" id="send">Enviar por WhatsApp</button></div></dialog>
+<script src="./js/app.js" defer></script></body></html>
